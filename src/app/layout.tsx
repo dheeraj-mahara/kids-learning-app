@@ -15,11 +15,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Kiddo Learn",
+  title: "Kiddo",
 description: "A fun and interactive learning platform for kids featuring ABC Math, educational games, and creative activities.",
  icons: {
     icon: "/logo.png",
   },
+   manifest: "/manifest.json",
 };
 
 export default function RootLayout({
